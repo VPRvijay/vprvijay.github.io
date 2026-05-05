@@ -20,14 +20,14 @@ const PROJECTS = [
     title: "Data Processing & Reporting System",
     description: "Automated student marks CSV pipeline with Pandas and Matplotlib for visual reporting and analytics.",
     tags: ["Python", "Pandas", "Matplotlib"],
-    github: "https://github.com/VPRvijay",
+    github: "https://github.com/VPRvijay/student-report-python",
     Icon: BarChart2,
   },
   {
     title: "Energy Efficiency Optimization",
     description: "College project developing algorithms to optimize energy consumption and efficiency using Python/Spyder.",
     tags: ["Python", "Spyder", "Algorithms"],
-    github: "https://github.com/VPRvijay",
+    github: "https://github.com/VPRvijay/EBPL",
     Icon: Zap,
   },
   {
