@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, Bot, Loader2 } from "lucide-react";
 
-const API_URL = "https://portfolio-chatbot-api.onrender.com/chat";
+const API_URL = "https://vijay-portfolio-chatbot.onrender.com/chat";
 
 interface Message {
   id: number;
@@ -249,6 +249,13 @@ export function ChatWidget() {
         }}
         aria-label="Toggle AI chat"
       >
+        <span
+          className="absolute -top-12 left-1/2 -translate-x-1/2 w-max rounded-full border border-[hsl(var(--primary)/0.18)] bg-[hsl(var(--background)/0.9)] px-3 py-1 text-[11px] font-medium text-foreground shadow-lg"
+          style={{ backdropFilter: "blur(12px)", WebkitBackdropFilter: "blur(12px)" }}
+        >
+          Hi, I'm Vijay's AI assistant
+        </span>
+
         <AnimatePresence mode="wait">
           {isOpen ? (
             <motion.span key="x" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }} transition={{ duration: 0.18 }}>
