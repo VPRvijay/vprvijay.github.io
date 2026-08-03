@@ -2,7 +2,7 @@ import { useState, useRef, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Send, Bot, Loader2 } from "lucide-react";
 
-const API_URL = "https://web-production-c6436.up.railway.app/chat";
+const API_URL = "https://portfolio-chatbot-api.onrender.com/chat";
 
 interface Message {
   id: number;

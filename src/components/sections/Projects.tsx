@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Github, FileText, Activity, BarChart2, Zap, Globe, Bot } from "lucide-react";
+import { Github, FileText, Activity, BarChart2, Zap, Globe, Bot, Code2 } from "lucide-react";
 
 const PROJECTS = [
   {
@@ -31,11 +31,18 @@ const PROJECTS = [
     Icon: Zap,
   },
   {
+    title: "Life-cycle-inside-Python",
+    description: "Comprehensive guide exploring Python object lifecycle, memory management, garbage collection, and resource optimization with practical examples and deep-dive concepts.",
+    tags: ["Python", "Educational", "Memory Management"],
+    github: "https://github.com/VPRvijay/Life-cycle-inside-Python",
+    Icon: Code2,
+  },
+  {
     title: "AI Portfolio Chatbot",
-    description: "Personal AI assistant built with FastAPI and NVIDIA NIM API, deployed on Railway. Answers questions about my skills, projects, and experience.",
-    tags: ["FastAPI", "NVIDIA NIM", "Python", "Railway"],
-    github: "https://github.com/VPRvijay",
-    live: "https://web-production-c6436.up.railway.app",
+    description: "Personal AI assistant built with FastAPI and NVIDIA NIM API, deployed on Render. Answers questions about my skills, projects, and experience.",
+    tags: ["FastAPI", "NVIDIA NIM", "Python", "Render"],
+    github: "https://github.com/VPRvijay/portfolio-chatbot",
+    live: "https://portfolio-chatbot-api.onrender.com",
     Icon: Bot,
   },
   {
